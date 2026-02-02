@@ -134,10 +134,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp ESC    &kp GRAVE  &kp UP_ARROW    &trans     &kp MINUS                 &kp BACKSPACE           &kp SEMICOLON          &kp N7        &kp N8        &kp N9        &kp EQUAL      &trans
-&kp TAB    &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &mt LEFT_SHIFT LS(MINUS)  &kp LS(LEFT_BRACKET)    &kp LS(RIGHT_BRACKET)  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS      &trans
-&kp LCTRL  &kp LC(Z)  &kp LC(X)       &kp LC(C)  &kp LC(V)                 &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH  &trans
-                                      &kp GLOBE  &mt LEFT_SHIFT ENTER      &kp SPACE               &mkp LCLK              &mkp RCLK     &kp NUMBER_0
+&kp ESC    &kp GRAVE  &kp UP_ARROW    &trans     &kp MINUS             &kp BACKSPACE           &kp SEMICOLON          &kp N7        &kp N8        &kp N9        &kp EQUAL      &trans
+&kp TAB    &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &mt LEFT_SHIFT EQUAL  &kp LS(LEFT_BRACKET)    &kp LS(RIGHT_BRACKET)  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS      &trans
+&kp LCTRL  &kp LC(Z)  &kp LC(X)       &kp LC(C)  &kp LC(V)             &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH  &trans
+                                      &kp GLOBE  &mt LEFT_SHIFT ENTER  &kp SPACE               &mkp LCLK              &mkp RCLK     &kp NUMBER_0
             >;
         };
 
@@ -150,10 +150,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp LG(TAB)     &kp TILDE  &kp PAGE_UP    &trans      &kp EQUAL      &kp DELETE              &kp COLON  &kp AMPERSAND   &kp STAR               &kp LEFT_PARENTHESIS  &kp LS(EQUAL)  &trans
-&kp LEFT_SHIFT  &kp HOME   &kp PAGE_DOWN  &kp END     &kp LS(EQUAL)  &kp LEFT_PARENTHESIS    &kp RPAR   &kp DOLLAR      &kp PERCENT            &kp CARET             &kp LS(MINUS)  &trans
-&kp O           &kp R      &kp T          &kp L       &GN            &GH                     &kp LPAR   &kp EXCL        &kp AT                 &kp POUND             &kp PIPE       &trans
-                                          &kp PERIOD  &mkp MB1       &kp ENTER               &mkp MB1   &kp LANGUAGE_1  &kp RIGHT_PARENTHESIS
+&kp LG(TAB)     &kp TILDE  &kp PAGE_UP    &trans      &kp UNDERSCORE  &kp DELETE              &kp COLON  &kp AMPERSAND   &kp STAR               &kp LEFT_PARENTHESIS  &kp LS(EQUAL)  &trans
+&kp LEFT_SHIFT  &kp HOME   &kp PAGE_DOWN  &kp END     &kp LS(EQUAL)   &kp LEFT_PARENTHESIS    &kp RPAR   &kp DOLLAR      &kp PERCENT            &kp CARET             &kp LS(MINUS)  &trans
+&kp O           &kp R      &kp T          &kp L       &GN             &GH                     &kp LPAR   &kp EXCL        &kp AT                 &kp POUND             &kp PIPE       &trans
+                                          &kp PERIOD  &mkp MB1        &kp ENTER               &mkp MB1   &kp LANGUAGE_1  &kp RIGHT_PARENTHESIS
             >;
         };
 
